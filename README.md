@@ -1,4 +1,4 @@
-# letsencrypt-autorenew
+# Let's Encrypt Auto Renew
 This shell script helps you auto renew your Let's Encrypt SSL. It supports multi-domains.
 
 # Variables
