@@ -26,7 +26,7 @@ $apachePATH -k stop
 
 # Renew SSL
 cd $LE_PATH
-./letsencrypt-auto certonly --standalone-supported-challenges http-01 $renewDomains --server https://acme-v01.api.letsencrypt.org/directory --email $email --agree-tos --agree-dev-preview --renew-by-default
+./letsencrypt-auto certonly --standalone-supported-challenges http-01 $renewDomains --server https://acme-v01.api.letsencrypt.org/directory --email $email --agree-tos --renew-by-default
 
 # Start Apache
 $apachePATH -k start
